@@ -1,0 +1,12 @@
+{% load static %}
+<h1>
+    Hello
+</h1>
+{% for project in all_projects %}
+    {{project.title}}
+    {{project.description}}
+    {{project.technology}}
+    {{project.responsibilities}}
+    <img src="{{ project.image.url }}" width="20%%">
+
+{% endfor %}
