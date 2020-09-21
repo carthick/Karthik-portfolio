@@ -1,0 +1,1 @@
+web: gunicorn karthik-profile.wsgi --log-file -
