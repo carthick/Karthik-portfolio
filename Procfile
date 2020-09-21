@@ -1,1 +1,1 @@
-web: gunicorn karthik-profile.wsgi
+web: gunicorn karthik-profile.wsgi  --log-file -
